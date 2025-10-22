@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #4a90e2, #357ABD);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+/* Avatar */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+  object-fit: cover;
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #357ABD;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Contact icons */
+.contact-icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact-icons i,
+.contact-icons img.social-icon {
+  transition: transform 0.15s ease, filter 0.15s ease;
+  cursor: pointer;
+  color: #357ABD;
+}
+
+.contact-icons i:hover,
+.contact-icons img.social-icon:hover {
+  transform: translateY(-4px) scale(1.15);
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.12));
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+/* Future plans */
+.future p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  width: 260px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.project-info h3 {
+  margin-top: 0;
+  color: #357ABD;
+}
+
+.project-info p {
+  margin: 8px 0;
+}
+
+.project-info a {
+  color: #357ABD;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #357ABD;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
